@@ -7,6 +7,10 @@
   "bin": {
     "percollate": "bin/cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebrokenfinger/percollate-x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
