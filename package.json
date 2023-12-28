@@ -1,14 +1,15 @@
 {
   "name": "percollate-x",
   "description": "An extended version of percollate with more features",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "main": "src/index.js",
   "bin": {
     "percollate": "bin/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "keywords": [
     "pdf",
