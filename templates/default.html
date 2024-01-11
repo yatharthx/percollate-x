@@ -5,7 +5,7 @@
 		<title>{{ title }}</title>
 
 		<style type="text/css">
-			{{style }}
+			{{ style }}
 		</style>
 	</head>
 	<body>
@@ -16,11 +16,12 @@
 				<p class="cover__author">{{ author }}</p>
 				{% endif %}
 				<h1 class="cover__title">{{ title }}</h1>
-				<p class="cover__subtitle">
+				<!-- Removing the date temporarily -->
+				<!-- <p class="cover__subtitle">
 					<time class="cover__date" datetime="{{ date }}"
 						>{{ date }}</time
 					>
-				</p>
+				</p> -->
 			</div>
 		</div>
 		<div class="cover__sentinel">&nbsp;</div>

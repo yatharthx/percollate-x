@@ -316,10 +316,10 @@ article:not(:last-of-type) {
  */
 
 .cover {
+	background-color: cornsilk;
 	color: var(--accent-color);
-	border: 0.5em solid;
 	font-family: var(--cover-font, var(--alt-font));
-	padding: 2em;
+	padding: 0.2em;
 }
 
 .cover__author {
@@ -373,10 +373,10 @@ article:not(:last-of-type) {
 }
 
 .type--epub .cover {
-	top: 2em;
-	left: 2em;
-	right: 2em;
-	bottom: 2em;
+	top: 0;
+	left: 1em;
+	right: 1em;
+	bottom: 0;
 }
 
 .type--pdf .cover__content,
